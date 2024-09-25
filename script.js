@@ -13,7 +13,7 @@ function stripArticle(bandName) {
     return stripArticle(a).localeCompare(stripArticle(b));
 });
 
-const bandList = document.getElementById('band');
+const bandList = document.getElementById('bands');
 sortedBands.forEach(function(band) {
     const li = document.createElement('li');
     li.textContent = band;
